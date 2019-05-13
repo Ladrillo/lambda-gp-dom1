@@ -11,3 +11,18 @@
 // 6- Use the setAttribute method of elements to slap a class of "cursive" to an element. Does it work?
 
 // 7- Use the style property of elements to slap some more inline styles to an element.
+
+// 8- Create a new paragraph from scratch and append it using insertAdjacentElement.
+
+
+// Create an anchor element using document.createElement and save it to a variable.
+// Add it to the document using appendChild or insertAdjacentHTML method of the body.
+// Add some text content to this element so it displays something to the user.
+// Use dot notation to give it an href attribute so the link will work.
+// Add a unique id using dot notation.
+// Change the id using the setAttribute method on elements.
+// Get the list of classnames this component has.
+// Use the add method on the list to add a couple of classnames.
+// Use the replace method on the class list to edit one of the classnames.
+// Use the remove method on the class list to remove one of the classnames.
+// Style the anchor tag using the style property.
