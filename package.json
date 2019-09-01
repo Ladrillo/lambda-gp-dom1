@@ -1,5 +1,5 @@
 {
-  "name": "DOM1",
+  "name": "dom-1",
   "version": "1.0.0",
   "description": "",
   "main": "script.js",
@@ -10,6 +10,6 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "eslint": "^5.16.0"
+    "eslint": "^6.3.0"
   }
 }
