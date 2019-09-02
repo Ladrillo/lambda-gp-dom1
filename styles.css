@@ -37,3 +37,7 @@ p:nth-of-type(2) {
 .cursive {
   font-style: italic;
 }
+
+.green {
+  color: green;
+}

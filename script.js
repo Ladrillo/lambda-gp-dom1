@@ -1,3 +1,19 @@
+// create something for the DOM progratically
+
+var myNewParagraph = document.createElement('p');
+
+myNewParagraph.textContent = 'The nice new content';
+
+myNewParagraph.classList.add('cats', 'green');
+
+myNewParagraph.setAttribute('id', 'theBestParagraph');
+
+var section = document.querySelector('section');
+
+section.appendChild(myNewParagraph);
+
+
+
 // 1- Traverse the DOM until you reach the children of the section element. This is an HTMLCollection which has a length property. Log it to the console. Does it match the number of elements inside the section element?
 
 // 2- Traverse the DOM until you reach the h3 heading. Save it to a variable. Change the innerText of the h3 to be something else.
