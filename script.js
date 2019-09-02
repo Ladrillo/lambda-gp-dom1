@@ -1,15 +1,15 @@
 // create something for the DOM progratically
-
 var myNewParagraph = document.createElement('p');
 
+// added certain content and attributes
 myNewParagraph.textContent = 'The nice new content';
-
 myNewParagraph.classList.add('cats', 'green');
-
 myNewParagraph.setAttribute('id', 'theBestParagraph');
 
+// we captured the element we wish to append to
 var section = document.querySelector('section');
 
+// to it, we appended the newly created thing
 section.appendChild(myNewParagraph);
 
 
